@@ -14,17 +14,6 @@ CLEANUP DEFAULT STYLES
 =========================
 */
 
-/* The asterisk (*) is a universal selector. It selects ALL elements.
-   We set margin and padding to 0 to remove browser default spacing.
-   box-sizing: border-box ensures padding and borders are included in the element's total width/height. */
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* :root is a pseudo-class that matches the document's root element.
    We use it to define CSS Variables (custom properties) typically starting with '--'.
    This makes it easy to maintain and change colors/fonts in one place. */
@@ -53,8 +42,6 @@ body {
   color: var(--color-body-text); /* Uses the variable defined in :root */
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
 }
 
 /* Shared styles for all heading levels (h1 through h6). */
@@ -65,7 +52,6 @@ h4,
 h5,
 h6 {
   font-family: "Lora", serif;
-  font-weight: 600;
   color: var(--color-headings);
 }
 
@@ -97,21 +83,22 @@ p {
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: clamp(1.5rem, 0.4896rem + 6.7925vw, 3.75rem) !important;
   margin-bottom: 1.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.25rem, 0.408rem + 5.6604vw, 3.125rem);
   margin-bottom: 1rem;
 }
 
 h3 {
+  font-size: clamp(1.125rem, 0.5075rem + 4.1509vw, 2.5rem);
   font-size: 1.5rem;
 }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: clamp(1.125rem, 0.7321rem + 2.6415vw, 2rem);
   margin-bottom: 1rem;
 }
 
@@ -130,4 +117,9 @@ a{
 
 .custom-textarea{
   height: 200px;;
+}
+
+.form-control:focus {
+  border-color: var(--color-hover) !important;
+  box-shadow: none;
 }
