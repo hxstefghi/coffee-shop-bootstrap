@@ -1,242 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/custom.css">
-</head>
-<body>
-    
-    <nav class="navbar navbar-expand-lg navbar-light p-3" style="background-color: var(--color-secondary);">
-        <div class="container">
-            <a class="w-50" href="#"><img src="./img/brew-grind-logo.png" class="img-fluid" alt=""></a>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/custom.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light p-3"
+      style="background-color: var(--color-secondary)"
+    >
+      <div class="container">
+        <a class="w-50" href="#"
+          ><img src="./img/brew-grind-logo.png" class="img-fluid" alt=""
+        /></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto align-items-center">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./menu.html">Our Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
-                    </li>
-                </ul>
-            </div>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto align-items-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./menu.html">Our Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <section class="image-slider">
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src="./img/Slider/slider1.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="./img/Slider/slider2.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                <img src="./img/Slider/slider3.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./img/Slider/slider1.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/Slider/slider2.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./img/Slider/slider3.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
         </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </section>
 
     <section class="feature p-5">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <video src="./video/brew-and-grind-video.mp4" controls width="100%" height="100%"></video>
-                </div>
-                <div class="col-12 col-md-6">
-                    <div class="d-flex flex-column align-items-start justify-content-center">
-                        <h2>Humble Beginnings</h2>
-                        <p>Brew & Grind opened its doors in 2014 at the vibrant corner of
-                    P. Noval and Dapitan St. in Sampaloc, Manila. What began as a
-                    simple dream—to serve highquality coffee in a warm, welcoming
-                    space—has grown into a beloved neighborhood staple.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="p-5 text-white" style="background-color: var(--color-primary);">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <h2>Where Coffee Meets Community</h2>
-                    <p>Brew & Grind opened its doors in 2014 at the vibrant corner of
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <video
+              src="./video/brew-and-grind-video.mp4"
+              controls
+              width="100%"
+              height="100%"
+            ></video>
+          </div>
+          <div class="col-12 col-md-6">
+            <div
+              class="d-flex flex-column align-items-start justify-content-center"
+            >
+              <h2>Humble Beginnings</h2>
+              <p>
+                Brew & Grind opened its doors in 2014 at the vibrant corner of
                 P. Noval and Dapitan St. in Sampaloc, Manila. What began as a
                 simple dream—to serve highquality coffee in a warm, welcoming
-                space—has grown into a beloved neighborhood staple.</p>
-                </div>
-                <div class="col-12 col-md-6">
-                    <img src="./img/home/where- coffee-meets-community.png" width="100%" alt="">
-                </div>
+                space—has grown into a beloved neighborhood staple.
+              </p>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="p-5" style="background-color: var(--color-secondary);">
-        <div class="container">
-            <div class="text-center">
-                <h3>Our Specialties</h3>
-                <p>Welcome to our menu—a celebration of flavor and craftsmanship.
-                Discover a diverse selection of artisanal coffees and handcrafted
-                delicacies, each prepared with passion and precision for a truly
-                unique experience</p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <img src="./img/home/expertly-crafted-coffee.png" alt="" width="100%">
-                    <div class="text-center mt-3">
-                        <h4>Expertly Crafted Coffee</h4>
-                        <p>
-                            Every cup is brewed with precision, using highquality beans and
-                            expert techniques to ensure the perfect balance of flavor and
-                            aroma.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="./img/home/heavenly-baked-delights.png" alt=""width="100%">
-                    <div class="text-center mt-3">
-                        <h4>Expertly Crafted Coffee</h4>
-                        <p>
-                            Every cup is brewed with precision, using highquality beans and
-                            expert techniques to ensure the perfect balance of flavor and
-                            aroma.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4">
-                    <img src="./img/home/ethically-souced-beans.png" alt="" width="100%">
-                    <div class="text-center mt-3">
-                        <h4>Expertly Crafted Coffee</h4>
-                        <p>
-                            Every cup is brewed with precision, using highquality beans and
-                            expert techniques to ensure the perfect balance of flavor and
-                            aroma.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="text-center mt-3">
-                <button class="btn btn-success text-white p-3">View Full Menu</button>
-            </div>
+    <section
+      class="p-5 text-white"
+      style="background-color: var(--color-primary)"
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <h2>Where Coffee Meets Community</h2>
+            <p>
+              Brew & Grind opened its doors in 2014 at the vibrant corner of P.
+              Noval and Dapitan St. in Sampaloc, Manila. What began as a simple
+              dream—to serve highquality coffee in a warm, welcoming space—has
+              grown into a beloved neighborhood staple.
+            </p>
+          </div>
+          <div class="col-12 col-md-6">
+            <img
+              src="./img/home/where- coffee-meets-community.png"
+              width="100%"
+              alt=""
+            />
+          </div>
         </div>
+      </div>
+    </section>
+
+    <section class="p-5" style="background-color: var(--color-secondary)">
+      <div class="container">
+        <div class="text-center">
+          <h3>Our Specialties</h3>
+          <p>
+            Welcome to our menu—a celebration of flavor and craftsmanship.
+            Discover a diverse selection of artisanal coffees and handcrafted
+            delicacies, each prepared with passion and precision for a truly
+            unique experience
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <img
+              src="./img/home/expertly-crafted-coffee.png"
+              alt=""
+              width="100%"
+            />
+            <div class="text-center mt-3">
+              <h4>Expertly Crafted Coffee</h4>
+              <p>
+                Every cup is brewed with precision, using highquality beans and
+                expert techniques to ensure the perfect balance of flavor and
+                aroma.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./img/home/heavenly-baked-delights.png"
+              alt=""
+              width="100%"
+            />
+            <div class="text-center mt-3">
+              <h4>Expertly Crafted Coffee</h4>
+              <p>
+                Every cup is brewed with precision, using highquality beans and
+                expert techniques to ensure the perfect balance of flavor and
+                aroma.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <img
+              src="./img/home/ethically-souced-beans.png"
+              alt=""
+              width="100%"
+            />
+            <div class="text-center mt-3">
+              <h4>Expertly Crafted Coffee</h4>
+              <p>
+                Every cup is brewed with precision, using highquality beans and
+                expert techniques to ensure the perfect balance of flavor and
+                aroma.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-3">
+          <button class="btn btn-success text-white p-3">View Full Menu</button>
+        </div>
+      </div>
     </section>
 
     <section class="p-5">
-        <div class="container">
-            <div class="text-center">
-                <h3>What Our Patrons Say</h3>
-                <p>
-                    We're proud to have earned the trust of our patrons over the years.
-                    Here's what they have to say about their experiences with us.
-                </p>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-4 text-center">
-                    <img src="./img/home/jack-amo.jpg" style="border-radius: 50%;" alt="" class="img-fluid">
-                    <div class="text-center mt-3">
-                        <h4>Jack Amo</h4>
-                        <p>
-                            I loved the exceptional blend of rich coffee flavors paired with
-                            a cozy, relaxed ambiance that truly elevates the morning ritual.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 text-center">
-                    <img src="./img/home/leanne-gatong.jpg" style="border-radius: 50%;" alt="" class="img-fluid">
-                    <div class="text-center mt-3">
-                        <h4>Jack Amo</h4>
-                        <p>
-                            I loved the exceptional blend of rich coffee flavors paired with
-                            a cozy, relaxed ambiance that truly elevates the morning ritual.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 text-center">
-                    <img src="./img/home/mark-reyes.jpg" style="border-radius: 50%;" alt="" class="img-fluid">
-                    <div class="text-center mt-3">
-                        <h4>Jack Amo</h4>
-                        <p>
-                            I loved the exceptional blend of rich coffee flavors paired with
-                            a cozy, relaxed ambiance that truly elevates the morning ritual.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-3">
-                <button class="btn btn-success text-white p-3">View More</button>
-            </div>
+      <div class="container">
+        <div class="text-center">
+          <h3>What Our Patrons Say</h3>
+          <p>
+            We're proud to have earned the trust of our patrons over the years.
+            Here's what they have to say about their experiences with us.
+          </p>
         </div>
+        <div class="row">
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="./img/home/jack-amo.jpg"
+              style="border-radius: 50%"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text-center mt-3">
+              <h4>Jack Amo</h4>
+              <p>
+                I loved the exceptional blend of rich coffee flavors paired with
+                a cozy, relaxed ambiance that truly elevates the morning ritual.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="./img/home/leanne-gatong.jpg"
+              style="border-radius: 50%"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text-center mt-3">
+              <h4>Jack Amo</h4>
+              <p>
+                I loved the exceptional blend of rich coffee flavors paired with
+                a cozy, relaxed ambiance that truly elevates the morning ritual.
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 text-center">
+            <img
+              src="./img/home/mark-reyes.jpg"
+              style="border-radius: 50%"
+              alt=""
+              class="img-fluid"
+            />
+            <div class="text-center mt-3">
+              <h4>Jack Amo</h4>
+              <p>
+                I loved the exceptional blend of rich coffee flavors paired with
+                a cozy, relaxed ambiance that truly elevates the morning ritual.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-3">
+          <button class="btn btn-success text-white p-3">View More</button>
+        </div>
+      </div>
     </section>
 
-    <footer class="p-5 text-white" style="background-color: var(--color-primary);">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <h4>About Us</h4>
-                    <p>
-                        Your neighborhood spot for great coffee, good company, and a warm
-                        atmosphere. Visit us today and experience the difference. Follow us
-                        on social media for the latest updates and events!
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Contact Us</h4>
-                    <p>
-                        1234, Address, Street Name, Place, Name, City Name <br /><br />(+63)
-                        972 215 5432 <br />(+63) 972 332 8423
-                        <br /><br />brewngrind@gmail.com
-                    </p>
-                </div>
-                <div class="col-md-3">
-                    <h4>Quick Link</h4>
-                    <ul>
-                        <li><a class="text-white" href="./index.html">Home</a></li>
-                        <li><a class="text-white" href="./about.html">About Us</a></li>
-                        <li><a class="text-white" href="./our-menu.html">Our Menu</a></li>
-                        <li><a class="text-white" href="./contact-us.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                    <h4>Opening Time</h4>
-                    <ul>
-                        <li>Monday: 10:00am</li>
-                        <li>Tuesday: 10:20am - 5:30pm</li>
-                        <li>Wednesday: 10:30am - 5:50pm</li>
-                        <li>Thursday: 11:00am - 7:10pm</li>
-                        <li>Friday: Closed</li>
-                    </ul>
-                </div>
-            </div>
+    <footer
+      class="p-5 text-white"
+      style="background-color: var(--color-primary)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h4>About Us</h4>
+            <p>
+              Your neighborhood spot for great coffee, good company, and a warm
+              atmosphere. Visit us today and experience the difference. Follow
+              us on social media for the latest updates and events!
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Contact Us</h4>
+            <p>
+              1234, Address, Street Name, Place, Name, City Name
+              <br /><br />(+63) 972 215 5432 <br />(+63) 972 332 8423
+              <br /><br />brewngrind@gmail.com
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h4>Quick Link</h4>
+            <ul>
+              <li><a class="text-white" href="./index.html">Home</a></li>
+              <li><a class="text-white" href="./about.html">About Us</a></li>
+              <li><a class="text-white" href="./our-menu.html">Our Menu</a></li>
+              <li>
+                <a class="text-white" href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Opening Time</h4>
+            <ul>
+              <li>Monday: 10:00am</li>
+              <li>Tuesday: 10:20am - 5:30pm</li>
+              <li>Wednesday: 10:30am - 5:50pm</li>
+              <li>Thursday: 11:00am - 7:10pm</li>
+              <li>Friday: Closed</li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
